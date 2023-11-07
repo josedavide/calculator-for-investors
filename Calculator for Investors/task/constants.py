@@ -1,0 +1,44 @@
+MAIN_MENU_TITLE = "MAIN MENU"
+CRUD_MENU_TITLE = "CRUD MENU"
+TOP_TEN_MENU_TITLE = "TOP TEN MENU"
+
+MAIN_EXIT = 'EXIT'
+MAIN_CRUD = 'CRUD'
+MAIN_TOP_TEN = 'TOP_TEN'
+
+CRUD_BACK = 'BACK'
+CRUD_CREATE = 'CREATE'
+CRUD_READ = 'READ'
+CRUD_UPDATE = 'UPDATE'
+CRUD_DELETE = 'DELETE'
+CRUD_LIST_ALL = 'LIST_ALL'
+
+TOP_TEN_BACK = 'BACK'
+TOP_TEN_LIST_BY_EBITDA = 'LIST_BY_EBITDA'
+TOP_TEN_LIST_BY_ROE = 'LIST_BY_ROE'
+TOP_TEN_LIST_BY_ROA = 'LIST_BY_ROA'
+
+MAIN_OPTIONS = {
+    MAIN_EXIT: ("0", "Exit"),
+    MAIN_CRUD: ("1", "CRUD operations"),
+    MAIN_TOP_TEN: ("2", "Show top ten companies by criteria"),
+}
+CRUD_OPTIONS = {
+    CRUD_BACK: ("0", "Back"),
+    CRUD_CREATE: ("1", "Create a company"),
+    CRUD_READ: ("2", "Read a company"),
+    CRUD_UPDATE: ("3", "Update a company"),
+    CRUD_DELETE: ("4", "Delete a company"),
+    CRUD_LIST_ALL: ("5", "List all companies")
+}
+
+TOP_TEN_OPTIONS = {
+    TOP_TEN_BACK: ("0", "Back"),
+    TOP_TEN_LIST_BY_EBITDA: ("1", "List by ND/EBITDA"),
+    TOP_TEN_LIST_BY_ROE: ("2", "List by ROE"),
+    TOP_TEN_LIST_BY_ROA: ("3", "List by ROA")
+}
+
+MAIN_MENU = (MAIN_MENU_TITLE, MAIN_OPTIONS)
+CRUD_MENU = (CRUD_MENU_TITLE, CRUD_OPTIONS)
+TOP_TEN_MENU = (TOP_TEN_MENU_TITLE, TOP_TEN_OPTIONS)
